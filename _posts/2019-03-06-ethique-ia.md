@@ -94,6 +94,7 @@ Conscients des enjeux que représente l'IA mais aussi des craintes fondées ou n
 Evidemment, cette démarche risque d'apparaître comme une démarche opportuniste et comme un coup de com'. Pour tenter de désamorcer une éventuelle polémique, nous nous engageons sur 2 points :
 1. signer et respecter les valeurs fondamentales de la déclaration de Montréal, cette déclaration coconstruite nous semble la plus universellement partageable et correspond entièrement à nos propres valeurs.
 2. Fournir un rapport annuel et vérifiable des actions menées au sein de Parcoor dans une logique de transparence.
+
 ![denis-manuel](/img/denis-manuel.jpg)
 *Denis et Manuel Capel, co-fondateurs de Parcoor*
 
