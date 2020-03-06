@@ -7,7 +7,7 @@ tags: [ethics, ai]
 
 L'IA est une technologie tellement innovante et transversale qu'elle bouleverse tous les pans de notre civilisation. Dans un monde où des milliards de données sont créées de manière exponentielle et circulent instantanément via le web, l'exploitation de ces données avec l'IA amène à se poser de nombreuses questions éthiques. Et ce, alors même que le terme d'intelligence artificielle prête à confusion et que de grands noms comme Elon Musk, Stephan Hawkins ou Bill Gates alimentent les fantasmes et les craintes autour de cette rupture technologique. C'est le fameux syndrome “Terminator”. D'ailleurs, lorsqu'on recherche le terme « intelligence artificielle » sur Google image, la quasi unique représentation qui ressort est celle d'un robot humanoïde dans une position qui suggère la pensée ou la prise de décision.
 
-![IA Wikipedia](/img/ia-wikipedia.jpg)
+![IA Wikipedia](/img/ia-wikipedia.png)
 
 Evidemment, pour qui s'intéresse un tant soit peu à l'IA comprendra que nous sommes encore très loin d'une IA dite forte qui remplacerait l'Homme au sommet de la chaîne alimentaire. On se rend même compte que pour arriver à avoir des voitures totalement autonomes (niveau 5), on risque d'attendre plusieurs décennies, si on y arrive un jour... On est donc encore très loin de l'avènement de Skynet (la société qui développe l'IA qui anéantira l'humanité dans la série Terminator).
 
