@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CAST: un modèle de prédiction de propagation
+title: modèle CAST pour la prédiction de propagation
 subtitle: Un modèle pour modéliser la propagation d'épidémie (mais pas que...)
 tags: [simulation]
 ---
@@ -22,13 +22,13 @@ Moyennant cela, on lance une simulation et on observe ce qu'il se passe...
 On a lancé une simulation sur une map contenant 1000 agents et 600 cellules réparties aléatoirement sur une map.
 Concernant l'évolution spatio-temporelle du nombre de malades sur la map, voici ce qu'on obtient:
 
-![CAST geographical time evolution](img/mapevolution.gif?raw=true "CAST geographical time evolution")
+![CAST geographical time evolution](/img/mapevolution.gif?raw=true "CAST geographical time evolution")
 
 Chaque case pourrait représenter les régions ou département d'un pays.
 
 Concernant l'évolution du nombre d'agents dans les différents états au cours du temps, on obtient ce graphique:
 
-![CAST state time evolution](../master/img/nevolution.png?raw=true "CAST state time evolution")
+![CAST state time evolution](/img/nevolution.png?raw=true "CAST state time evolution")
 
 Voir le [notebook compagnon](https://github.com/parcoor/py-propagsim/blob/master/toy_simulation.ipynb) pour reproduire ces résultats.
 
@@ -50,7 +50,7 @@ $$p = contagiousity(state(Agent_A)) \times sensitivity(state(Agent_B)) \times un
 * Si plusieurs agents dans la même cellule sont contagieux, seul le plus contagieux est pris en compte pour calculer *p*.
 * La *unsafety* (insûreté) d'une cellule mesure à quelle point elle est propice à des contagions (si les gens y sont serrés ou au contraire distanciés etc.)
 
-![CAST contamination process](img/contagion.png?raw=true "CAST contamination process")
+![CAST contamination process](/img/contagion.png?raw=true "CAST contamination process")
 
 Si l'*Agent_B* se fait infecter, il passe à l'état ayant la plus faible *sévérité* strictement positive (il ne peut pas sauter directement à un état plus sévère).
 
@@ -77,7 +77,7 @@ La cellule où déplacer un agent sélectionné pour un mouvement à l'étape pr
 
 $$p \~ \frac{attractivity(cell)}{distance(home\_cell(agent), cell)}$$
 
-![CAST move process](img/move.png?raw=true "CAST move process")
+![CAST move process](/img/move.png?raw=true "CAST move process")
 
 **NB**:
 * Une limitation de ce modèle est que l'attractivité de chaque cellule est la même pour tous les agents.
@@ -88,7 +88,7 @@ $$p \~ \frac{attractivity(cell)}{distance(home\_cell(agent), cell)}$$
 Chaque *période* est faite d'un certain nombre de *rondes* de mouvements. Ce nombre de rondes peut être différent pour chaque période. Durant chaque ronde, les agents se déplacent comme décrit précedemment. S'ils sont infectés, ils peuvent alors infectés d'autres agents se retrouvant dans la même cellule après une ronde de mouvement.
 À la fin de chaque période, tous les agents sont *forwardés*, c'est à dire que la durée de l'état dans lequelle il se trouve est incrémentée de 1. Si cet état a une durée finit et qu'elle arrive alors à expiration, l'agent passe à un autre état selon sa matrice de transition.
 
-![CAST temporality](img/temporality.png?raw=true "CAST temporality") 
+![CAST temporality](/img/temporality.png?raw=true "CAST temporality") 
 
 ## Perspectives
 Même si l'[implémentation actuelle](https://github.com/parcoor/py-propagsim) est assez performante (grâce à une utilisation intensive de librairies comme [numpy](https://numpy.org/)), la performance pourrait être encore grandement améliorée en utilisant du calcul GPU, rendant alors possible de simuler des propagations sur de larges populations rapidement.
