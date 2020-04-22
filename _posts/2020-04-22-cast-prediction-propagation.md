@@ -75,7 +75,7 @@ Le premier facteur représente la mobilité d'un agent. Le second représente le
 #### Sélection des cellule
 La cellule où déplacer un agent sélectionné pour un mouvement à l'étape précédente est choisie aléatoirement selon la probabilité:
 
-$$p ~ \frac{attractivity(cell)}{distance(home\_cell(agent), cell)}$$
+$$p \~{} \frac{attractivity(cell)}{distance(home\_cell(agent), cell)}$$
 
 ![CAST move process](/img/move.png?raw=true "CAST move process")
 
