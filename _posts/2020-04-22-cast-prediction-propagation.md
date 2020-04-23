@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Modèle CAST pour la Prédiction de Propagation
-subtitle: Un modèle pour modéliser la propagation d'épidémie (mais pas que...)
+subtitle: Un modèle pour modéliser la propagation d'épidémie (mais pas que...) et l'impact de mesures pour les contrer
 tags: [simulation]
 ---
 
