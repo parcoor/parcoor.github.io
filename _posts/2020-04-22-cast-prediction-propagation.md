@@ -38,7 +38,7 @@ Voir le [notebook compagnon](https://github.com/parcoor/py-propagsim/blob/master
 Ce modèle considère trois éléments de base
 1. **Cellule**. Une cellule contient aucun, un ou plusieurs *agents* à chaque instant. Elle a aussi une *position* (coordonnées euclidiennes sur un plan)
 2. **Agent**. Un agent est à chaque moment dans un et un seul *état* dans une et une seule *cellule*. La cellule où il est placé au départ est appelé sa *home_cell* ou *cellule_base*.
-3. **État**. Un *état* a une *sévérité*, *contagiosité* and *sensitivité* prenant toutes des valeurs entre 0 et 1.
+3. **État**. Un *état* a une *sévérité*, *contagiosité* et une *sensitivité* prenant toutes des valeurs entre 0 et 1.
 
 ### Contagion
 Une contagion peut intervenir au sein d'une cellule, quand s'y retrouvent au même moment un agent sain et un agent contagieux (ayant une contagiosité >0).
@@ -91,7 +91,7 @@ Chaque *période* est faite d'un certain nombre de *rondes* de mouvements. Ce no
 ![CAST temporality](/img/temporality.png?raw=true "CAST temporality") 
 
 ## Perspectives
-Même si l'[implémentation actuelle](https://github.com/parcoor/py-propagsim) est assez performante (grâce à une utilisation intensive de librairies comme [numpy](https://numpy.org/)), la performance pourrait être encore grandement améliorée en utilisant du calcul GPU, rendant alors possible de simuler des propagations sur de larges populations rapidement.
+Même si l'[implémentation actuelle](https://github.com/parcoor/py-propagsim) est assez performante (grâce notamment à l'utilisation intensive de librairies comme [numpy](https://numpy.org/)), la performance pourrait être encore grandement améliorée en utilisant du calcul GPU, rendant alors possible de simuler des propagations sur de larges populations rapidement.
 D'autres affinements sont possible, comme par exemple une attractivité des cellules différenciée selon des catégories de population. Certaines cellules par exemple pourraient être beaucuop plus attractives pour les jeunes que pour les personnes âgées et inversement.
 
 En conclusion, même si ce modèle n'est sans doute pas la solution ultime, on pense qu'il est capable de fournir des prévisions utiles en cas d'épidémies, de simuler l'impact de mesures sanitaires, et ainsi d'apporter sa pierre à l'*outbreak science* émergente.
