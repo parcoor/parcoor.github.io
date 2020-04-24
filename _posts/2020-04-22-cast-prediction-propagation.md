@@ -30,6 +30,14 @@ Concernant l'évolution du nombre d'agents dans les différents états au cours 
 
 ![CAST state time evolution](/img/nevolution.png?raw=true "CAST state time evolution")
 
+On s'aperçoit ici que le modèle retrouve "naturellement" le concept d'immunité collective après qu'une certaine proportion de la population ait été contaminée. "Naturellement", car résultant de l'évolution de la simulation, sans que ça ait été paramétré.
+
+L'implémentation du modèle *CAST* permet aussi de garder trace de qui a infecté qui, ce qu'on peut ensuite visualiser en plus de l'évolution entre états des agents:
+
+![CAST contamination state evolution](/img/chainevolution.gif?raw=true "CAST contamination state evolution")
+
+Cette traçabilité de la chaîne de contamination permet ensuite de modéliser par exemple l'effet du *contact tracing* pour contenir l'épidémie.
+
 Voir le [notebook compagnon](https://github.com/parcoor/py-propagsim/blob/master/examples/example0.ipynb) pour reproduire ces résultats.
 
 
