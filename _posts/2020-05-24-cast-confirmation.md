@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CAST se confirme: la suite
+title: CAST se confirme, la suite
 subtitle: CAST semble se confirmer, qu'envisager pour la suite
 tags: [simulation]
 ---
@@ -35,5 +35,4 @@ liberté totale de mouvement sur toute la France
 
 ![Déconfinement optimisé](/img/deconfinement-optimise.png?raw=true "Évolution des hospitalisations du 19 au 24 Mai")
 
-[Parcoor](https://parcoor.com) l’avait prévu avec *CAST*. Les hospitalisation repartent à la hausse sur 5 jours consécutifs. Voir ci-dessus notre scénario optimal pour la suite du déconfinement.
 
