@@ -29,16 +29,14 @@ Pire encore, un système qui se contiendrait lui-même serait inconsistent, cont
 
 *Kurt Gödel en ballade avec Einstein...*
 
-Pour la petite histoire, le théorème d'incomplétude de Gödel était une réponse au [programme de Hilbert](https://fr.wikipedia.org/wiki/Programme_de_Hilbert), visant à prouver la consistence des [Principia Mathematica](https://en.wikipedia.org/wiki/Principia_Mathematica) de Russell et Whitehead, visant à donner des fondations solides aux mathématiques qui avaient été durement ébranlés après la découverte de géométries non-euclidiennes (comme prétendre que les mathématiques représentent la réalité si elles représentent plusieurs réalités??) et d'autres crises au 19e siècle. Mais le projet de mettre en place des principes complets, consistents et immuables s'est confronté à son impossibilité...
-
-
+Pour la petite histoire, le théorème d'incomplétude de Gödel était une réponse au [programme de Hilbert](https://fr.wikipedia.org/wiki/Programme_de_Hilbert), visant à prouver la consistence des [Principia Mathematica](https://en.wikipedia.org/wiki/Principia_Mathematica) de Russell et Whitehead, dont le but était de donner des fondations solides aux mathématiques qui avaient été durement ébranlés après la découverte de géométries non-euclidiennes (comme prétendre que les mathématiques représentent la réalité si elles représentent plusieurs réalités??) et d'autres crises au 19e siècle. Mais le projet de mettre en place des principes complets, consistents et immuables s'est confronté à son impossibilité...
 
 Mais qu'est-ce que ça a à voir avec l'intelligence, humaine et artificielle?
 
 ## Intelligence et méta-règles
 Quand on y pense, le machine learning réussit la prouesse de rendre une machine aussi obtue et bornée qu'un ordinateur flexible, capable de découvrir des coups au jeu d'échecs ou de go qui échappent aux humains, d'être créatif etc. Pour cela, on entraîne des modèles. Pour schématiser, on fait passer des données dans le modèle, et en fonction du résultat le modèle se modifie lui-même (en deep-learning, cette opération s'appelle [rétropropagation](https://fr.wikipedia.org/wiki/R%C3%A9tropropagation_du_gradient)).. Au final, ça consite à donner à l'ordinateur des règles pour modifier ses propres règles. Tout comme un pays peut avoir une assemblée pour modifier les propres règles du pays. Tout comme un humain réagit différemment selon la situation qui se présente. Et c'est comme ça qu'émerge l'ntelligence, qu'elle soit individuelle, collective ou artificielle: en ayant des règles pour modifier ses règles.
 
-## Augmenter l'intelligence: prendre du colume ou de la hauteur
+## Augmenter l'intelligence: prendre du volume ou de la hauteur
 Pour s'adapter et résoudre des situations et des problèmes de plus en plus complexes, il faut augmenter l'intelligence qui les traite. Pour cela, deux solutions possibles:
 1. Augmenter les règles applicables par cette intelligence: augmenter son volume
 2. Lui donner des règles permettant d'adapter au mieux ses propres règles: lui faire prendre de la hauteur.
@@ -50,7 +48,7 @@ Prenons un exemple en intelligence artificielle. [OpenAI](https://openai.com/) a
 
 *GPT-3 bat tous les records, aussi en terme de volume*
 
-À l'heure actuelle, les réseaux de neurones sont plutôt statiques. Une fois qu'on a définit leur architecture, leurs règles d'adaptation, on les entraîne avec un volume suffisant de données et la "magie" apparaît. Mais au lieu d'augmenter en volume ces réseaux de neurones, pourquoi ne pas imaginer leur donner des méta-règles, c'est à dire des règles à leurs règles? Imaginer que durant son entraînement, le réseau de neurone modifie par lui-même non seulement ses paramètres, mais aussi ses hyper-paramètres, comme sa propre architecture, ses règles de mise à jour etc.? Serait-il possible alors d'obtenir des performances semblables mais avec un modêle bien moins volumineux?
+À l'heure actuelle, les réseaux de neurones sont plutôt statiques. Une fois qu'on a définit leur architecture, leurs règles d'adaptation, on les entraîne avec un volume suffisant de données et la "magie" apparaît. Mais au lieu d'augmenter en volume ces réseaux de neurones, pourquoi ne pas imaginer leur donner des méta-règles, c'est à dire des règles à leurs règles? Imaginer que durant son entraînement, le réseau de neurone modifie par lui-même non seulement ses paramètres, mais aussi ses hyper-paramètres, comme sa propre architecture, ses règles de mise à jour etc.? Serait-il possible alors d'obtenir des performances semblables mais avec un modèle bien moins volumineux?
 
 ### Société
 Au niveau collectif également, on entend souvent des voix s'élever contre les réglementations de plus en plus nombreuses, chaque nouveau problème appelant une nouvelle règle qui s'accumulent. Pourquoi ne pas se donner des méta-règles, c'est à dire des règles sur la façon de se donner des règles pour être plus flexibles avec moins de réglementation? Certes cela existe déjà, mais de façon peut-être trop clairesemée.
