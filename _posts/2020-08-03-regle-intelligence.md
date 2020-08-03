@@ -26,6 +26,7 @@ Ce que nous apprend le premier théorème de Gödel, c'est que tout système for
 Pire encore, un système qui se contiendrait lui-même serait inconsistent, contiendrait des paradoxes du type de celui d'Épiménide. Ce combat est donc perdu d'avance.
 
 ![Gödel Einstein](/img/goedel-einstein.png?raw=true "Gödel Einstein")
+
 *Kurt Gödel en ballade avec Einstein...*
 
 Pour la petite histoire, le théorème d'incomplétude de Gödel était une réponse au [programme de Hilbert](https://fr.wikipedia.org/wiki/Programme_de_Hilbert), visant à prouver la consistence des [Principia Mathematica](https://en.wikipedia.org/wiki/Principia_Mathematica) de Russell et Whitehead, visant à donner des fondations solides aux mathématiques qui avaient été durement ébranlés après la découverte de géométries non-euclidiennes (comme prétendre que les mathématiques représentent la réalité si elles représentent plusieurs réalités??) et d'autres crises au 19e siècle. Mais le projet de mettre en place des principes complets, consistents et immuables s'est confronté à son impossibilité...
@@ -46,6 +47,7 @@ Pour s'adapter et résoudre des situations et des problèmes de plus en plus com
 Prenons un exemple en intelligence artificielle. [OpenAI](https://openai.com/) a sorti récemment [GPT-3](https://github.com/openai/gpt-3), un modèle de deep learning de génération de textes aux performances proprement [époustouflantes](https://www.gwern.net/GPT-3), capable de tenir des conversations très réalistes avec des humains, d'improviser de la poésie, même d'écrire des programmes etc. Ce modèle restera sans doute dans l'histoire comme une des étapes majeures de l'intelligence artificielle, loin de moi l'idée de sous-estimer cette prouesse. Toutefois, cette prouesse a eu lieu grâce à un réseau de neurone mastodontesque contenant pas moins de 175 milliards de cellules qui a aspiré une grande partie d'internet pour s'entraîner.
 
 ![volume GPT-3](/img/gpt3-volume.png?raw=true "volume GPT-3")
+
 *GPT-3 bat tous les records, aussi en terme de volume*
 
 À l'heure actuelle, les réseaux de neurones sont plutôt statiques. Une fois qu'on a définit leur architecture, leurs règles d'adaptation, on les entraîne avec un volume suffisant de données et la "magie" apparaît. Mais au lieu d'augmenter en volume ces réseaux de neurones, pourquoi ne pas imaginer leur donner des méta-règles, c'est à dire des règles à leurs règles? Imaginer que durant son entraînement, le réseau de neurone modifie par lui-même non seulement ses paramètres, mais aussi ses hyper-paramètres, comme sa propre architecture, ses règles de mise à jour etc.? Serait-il possible alors d'obtenir des performances semblables mais avec un modêle bien moins volumineux?
@@ -56,6 +58,7 @@ Au niveau collectif également, on entend souvent des voix s'élever contre les 
 Récemment aussi sur l'hydroxichloroquine, sans vouloir rentrer dans le débat et certaines de ses intrications plus ou moins reluisantes, mais sur le fond, les deux perspectives qui s'affrontaient étaient: d'un côté ceux qui voulaient appliquer la règle (test en double-aveugle randomisé...), de l'autre ceux qui voulaient une méta-règle sur cette règle, c'est à dire l'utilisation de cette règle ou d'une autre selon les circonstances, très exceptionnelles en l'occurrence.
 
 ![Assemblée nationale](/img/assemblee-nationale.jpg?raw=true "Assemblée nationale")
+
 *Une société a aussi des règles pour se donner des règles, comme ici l'Assemblée nationale. C'est très certainement nécessaire, mais est-ce suffisant?*
 
 
