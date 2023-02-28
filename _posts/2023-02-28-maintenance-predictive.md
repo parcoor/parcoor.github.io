@@ -17,7 +17,7 @@ Anticiper les incidents, c’est assurer la continuité du service. C’est pour
 <br>
 ## Qu’est-ce qu’un problème de maintenance à l’hôpital ?
 
-##Définition de la maintenance hospitalière
+## Définition de la maintenance hospitalière
 
 La **maintenance des équipements biomédicaux** se caractérise par l’ensemble des actions mises en place, afin de maintenir un dispositif médical dans de bonnes conditions de fonctionnement. En fonction des classes des produits, c’est une obligation [réglementée par la législation](https://www.legifrance.gouv.fr/codes/article\_lc/LEGIARTI000025787327/2014-03-14 #:~:text=3%C2%B0%20Contr%C3%B4le%20de%20qualit%C3%A9,de%20qualit%C3%A9%20 est%20dit%20interne%2).
 
@@ -25,7 +25,7 @@ En effet, les appareils de diagnostic (IRM, scanner, échographie…), les appar
 
 Prévenir les pannes est donc essentielle pour limiter les temps d’immobilisation et améliorer le MTBF* matériel et donc conserver la performance des services et des soins.
 
-##Conséquence du dysfonctionnement des appareils biomédicaux
+## Conséquence du dysfonctionnement des appareils biomédicaux
 
 Les causes d’un problème de maintenance sont diverses et les anomalies sur les appareils affectent le bon fonctionnement du service. En moyenne, les équipements médicaux subissent **une panne majeure par an**.
 
@@ -41,7 +41,7 @@ L’activité et la qualité des soins en subissent **d’importantes conséquen
 
 Par conséquent, les hôpitaux ont tout intérêt à adopter la meilleure stratégie possible pour assurer leur maintenance.
 
-##Les solutions proposées habituellement pour la maintenance hospitalière
+## Les solutions proposées habituellement pour la maintenance hospitalière
 
 Habituellement, pour faire face aux difficultés de maintenance dans les hôpitaux, c’est la **maintenance préventive** qui prime. Une maintenance programmée pour être exécutée à intervalle régulier.
 
@@ -53,7 +53,7 @@ En cas d’échec de la maintenance préventive, on passe à la **maintenance cu
 <br>
 ##Nouvelle solution : la maintenance prédictive !
  
-###Avantages de la maintenance prédictive
+### Avantages de la maintenance prédictive
 
 Aujourd’hui, grâce à l’essor de la technologie, de nouvelles formes de maintenances ont vu le jour. Fini le temps où on était obligé de réparer systématiquement les pièces d’une machine ! Désormais, avec l’arrivée récente de la **maintenance prédictive**, on peut détecter l’apparition d’anomalies avant que cela ne devienne trop grave.
 
@@ -79,7 +79,7 @@ L’IA va également être habilitée à détecter les menaces indésirables tel
 
 ![Maintenance prédicitive](https://i.postimg.cc/k5XPLWSQ/intelligence-artificielle.jpg) 
 <br>
-##L’enjeu des entreprises fabriquant du matériel médical
+## L’enjeu des entreprises fabriquant du matériel médical
 
 On l’a vu, les pannes touchant les appareils biomédicaux sont fréquentes. Dans le pire des cas, les machines se retrouvent même immobilisées. Ce qui est susceptible d’engendrer de lourdes conséquences dans la prise en charge des patients…
 
