@@ -2,7 +2,7 @@
 layout: post
 title: Presenting NNC - Neural Network Library in C by Parcoor 
 subtitle: An opensource library for lightweight neural network in C, for every device and platform
-tags: [opensource deep-learning]
+tags: [opensource, deep-learning, ai]
 ---
 
 Parcoor is glad to release the first version of NNC - our deep learning
@@ -12,7 +12,7 @@ is available on its [Github repo](https://github.com/parcoor/nnc/).
 Any contribution is warmly welcome. 
 
 NCC is coded entirely in C with no dependence to external library (other than
-standard), thus making it highly portable to nearly any device.
+the standard library), thus making it highly portable to nearly any device.
 
 ## Short presentation
 NNC allows to build, train, persist, deploy
@@ -58,7 +58,7 @@ addinit_layer(&nk, 0, 3, GLOROT_UNIFORM_INIT, RELU_ACT);
 addinit_layer(&nk, 0, 1, GLOROT_UNIFORM_INIT, SIGMOID_ACT);
 ```
 The function `init_network()` initializes the (neural) network previously
-declared with the maximum number of layer it can contain. 
+declared with the maximum number of layers it can contain. 
 
 The function `addinit_layer()` initializes a new fully connected dense layer,
 taking as parameters:
@@ -158,10 +158,10 @@ nk->layers[1]->delta[4];
 ## Conclusion
 NNC allows to build, train, store, use neural networks in a pretty easy and
 intuitive way. We hope - and think - it can be useful for engineers dealing
-with limiting resources and wanting to solve relative simple tasks with neural
+with limited resources and wanting to solve relative simple tasks with neural
 networks. 
 
-We also think this framework can be useful to teachers and students, through making
+We also think this framework can be useful to researchers, teachers and students, by making
 the inner-work of a neural network easily observable, enabling fine-granular
 control for experimenting etc.
 
@@ -175,3 +175,4 @@ The roadmap for NNC focuses on integrating:
 - Convolutional layers
 - regularizers
 - more optimizers for the backpropagation (Adam...)
+
